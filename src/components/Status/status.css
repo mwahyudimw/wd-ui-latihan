@@ -1,0 +1,225 @@
+/* Status */
+.status {
+  position: fixed;
+  right: 0;
+  background-color: #fcfdfd;
+  height: 100%;
+  width: 150px;
+  padding: 35px;
+  animation: status 1.5s ease-in-out;
+}
+
+
+
+.status .tanggal {
+  display: flex;
+}
+
+.status .notifikasi span {
+  position: absolute;
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  background-color: #ff6161;
+  color:white;
+  border-radius: 50%;
+  margin-top: -8px;
+  margin-left: -13px;
+}
+
+.status .notifikasi p {
+  margin-top: 4px;
+}
+
+.status .tanggal .cuaca {
+  margin-left: 27px;
+}
+
+.status .tanggal img {
+  width: 50px;
+}
+
+.status .tanggal .cuaca h3 {
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 5px;
+  color: #404953;
+}
+
+.status .tanggal .cuaca p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: -12px;
+  color: #999999;
+}
+
+.status .pesan {
+  margin-top: 24px;
+}
+
+.status .pesan p {
+  font-size: 13px;
+  margin-top: -20px;
+  color: #404953;
+}
+
+.status .pesan .coret {
+
+  text-decoration: line-through;
+}
+
+.status .pesan h5 {
+  color: #a3a3a3;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.status .pesan hr {
+  height: 5px;
+  background-color: #b6d7fd;
+  width: 50px;
+  margin-left: 0;
+  border-radius: 3px;
+  border: 0;
+}
+
+.status .aktif {
+  font-size: 10px;
+}
+
+.status .aktif .view {
+  color: #85befb;
+  margin-left: 18px;
+  cursor: pointer;
+}
+
+.status .aktif i {
+  color: #e6e7e7;
+  border-radius: 2px;
+  border: 1px solid  #e6e7e7;
+  padding: 3px;
+}
+
+.status .pesan .aktif-hr {
+  background-color:#70b3fe;
+  width: 100px;
+  margin-left: 0;
+  border-radius: 3px;
+  border: 0;
+}
+
+.status .aktif .accept {
+  color: #b1b5b9;
+  cursor: pointer;
+}
+
+
+.logoCalendar{
+  border-radius: 5px;
+}
+
+.colCalendar{
+  width: 100%;
+  height: 20vh;
+  position: absolute;
+  left: 0;
+  display: block;
+}
+
+.colKet{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 58vh;
+  left: 0;
+  padding: 1vw 2vw;
+}
+
+.responsive-calendar{
+  width: 100%;
+  font-size: 8px;
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: 1px solid lavender;
+}
+
+
+
+.dotBlue{
+  width: 5px;
+  height: 5px;
+  background: #82bdff;
+  border-radius: 50%;
+  font-size: 10px;
+}
+
+.dotRed{
+  width: 5px;
+  height: 5px;
+  margin-top: 3vh;
+  background: red;
+  border-radius: 50%;
+  font-size: 10px;
+}
+
+.btnAdd{
+  height: 4vh;
+  font-size: 9px;
+  margin-top: 2vh;
+  border-radius: 5px;
+  color: #82bdff;
+  border: 1px solid #82bdff;
+  background: #fff;
+}
+
+.btnAdd:hover{
+  background: #82bdff;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width:700px) {
+  .status {
+    display: none;
+  }
+
+  .awal-status {
+    display: none;
+  }
+
+  .hidden-status {
+    right: -250px;
+    animation: hidden-status 0.5s ease-in-out;
+  }
+
+  @keyframes hidden-status {
+    0%{
+      right: 0;
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      right: -250px;
+    }
+  }
+
+  .show-status {
+    display: block;
+    z-index: 2;
+    animation: status 0.5s ease-in-out;
+  }
+
+  @keyframes status {
+    0%{
+      right: -200px;
+      opacity: 0;
+    }
+      100%{
+      right: 0;
+      opacity: 1;
+    }
+  }
+
+}

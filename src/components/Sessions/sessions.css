@@ -1,0 +1,367 @@
+/* Session */
+.session {
+    margin-top: 88px;
+    margin-left: 110px;
+    margin-right: 241px;
+    width: auto;
+    padding: 30px 35px;
+  }
+
+  .judul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .judul-session {
+    display: flex;
+    align-items: center;
+  }
+
+  .judul-session h1 {
+      font-weight: 400;
+      font-size: 33px;
+  }
+
+  .judul-session span {
+    margin-left: 45px;
+  }
+
+  .card-table {
+    background-color: #eff4f6;
+    padding: 13px 5px;
+  }
+
+  .card-table span {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 12px;
+    color: #c7c9cb;
+    cursor: pointer;
+  }
+
+.btnCreateNew{
+  border: 1px solid #82bdff;
+  height: 4vh;
+  color: #fff;
+  margin-left: 3vw;
+  font-size: 10px;
+  background: #82bdff;
+  border-radius: 5px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.btnCreateNew:hover{
+  background: #fff;
+  color: #82bdff;
+  cursor: pointer;
+}
+
+/* Content */
+.coverContent{
+  width: 100%;
+  height: 439px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.coverDayActive{
+  width: 22vw;
+  height: 63vh;
+  position: relative;
+  right: 1.5vw;
+  display: inline-block;
+  background: #fff;
+  margin-left: 1.5vw;
+  border-radius: 5px;
+  box-shadow: 3px 2px 5px rgba(0,0,0,0.1);
+}
+
+.coverDay{
+  width: 22vw;
+  height: 50vh;
+  position: relative;
+  bottom: 13vh;
+  right: 1.5vw;
+  display: inline-block;
+  background: #fff;
+  margin-left: 1.5vw;
+  border-radius: 5px;
+  box-shadow: 3px 2px 5px rgba(0,0,0,0.1);
+}
+
+.coverDay1{
+  width: 22vw;
+  height: 60vh;
+  position: relative;
+  bottom: 3vh;
+  right: 1.5vw;
+  display: inline-block;
+  background: #fff;
+  margin-left: 1.5vw;
+  border-radius: 5px;
+  box-shadow: 3px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* contentCover */
+.copContent{
+  width: 83%;
+  height: 90%;
+  background: none;
+  position: absolute;
+  left: 2vw;
+  top: 2vh;
+}
+
+.titleContent{
+  width: 91%;
+  height: 5vh;
+  align-items: center;
+  align-content: center;
+  justify-content: left;
+  display: flex;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: none;
+  font-size: 15px;
+  position: absolute;
+}
+
+.lineContent{
+  width: 50%;
+  height: 5px;
+  border-radius: 10px;
+  background: #82bdff;
+  position: absolute;
+  top: 5vh;
+}
+
+/* InputContent */
+.inputContent{
+  width: 100%;
+  height: 17vh;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  border: 1px solid none;
+  position: absolute;
+  top: 10vh;
+}
+
+.copInput{
+  width: 88%;
+  height: 85%;
+  border: 1px solid none;
+  position: absolute;
+  left: 1vw;
+  top: 1vh;
+}
+
+.timeContent{
+  width: 100%;
+  hieght: 2vh;
+  background: none;
+  font-size: 10px;
+  color: #ccc;
+}
+
+.txtContent{
+  width: 100%;
+  height: 3vh;
+  font-size: 13px;
+  background: none;
+}
+
+.btnCovers{
+  width: 100%;
+  height: 4vh;
+  align-items: center;
+  align-content: center;
+  justify-content: left;
+  display: flex;
+  border: 1px solid none;
+}
+
+.btnPaper{
+  width: 2vw;
+  height: 3vh;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+  color: #82bdff;
+  margin-bottom: 1vh;
+  border: 1px solid #82bdff;
+  font-size: 10px;
+}
+
+.btnPaper:hover{
+  background: #82bdff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btnAM{
+  width: 2vw;
+  height: 3vh;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+  color: #82bdff;
+  margin-left: 1vh;
+  background: lavender;
+  border: 1px solid lavender;
+  font-size: 10px;
+}
+
+.btnAM:hover{
+  background: #82bdff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btnES{
+  width: 2vw;
+  height: 3vh;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+  color: yellow;
+  margin-left: 1vh;
+  background: lavenderblush;
+  border: 1px solid lavenderblush;
+  font-size: 10px;
+}
+
+.btnES:hover{
+  background: yellow;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btnPaperClip{
+  width: 2vw;
+  height: 3vh;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+  color: #82bdff;
+  margin-left: 5vw;
+  background: none;
+  border: 1px solid none;
+  font-size: 8px;
+}
+
+/* Input Content2 */
+.inputContent2{
+  width: 100%;
+  height: 16vh;
+  color: #fff;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+  background:#82bdff;
+  border-radius: 5px;
+  border: 1px solid none;
+  position: absolute;
+  top: 30vh;
+}
+
+/* Input Content3 */
+.inputContent3{
+  width: 100%;
+  height: 12.5vh;
+  color: #000;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid none;
+  position: absolute;
+  top: 48vh;
+}
+
+.btnCovers2{
+  width: 100%;
+  height: 4vh;
+  background: none;
+  align-items: center;
+  position: relative;
+  bottom: 3vh;
+  align-content: center;
+  justify-content: left;
+  display: flex;
+  border: 1px solid none;
+}
+
+.btnDay{
+  width: 5vw;
+  height: 5vh;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #fff;
+}
+
+
+.btnDay:hover{
+  background: lavender;
+  border: 1px solid lavender;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Tampilan mobile */
+@media (max-width:700px) {
+    .session {
+        margin-top: 30px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px;
+
+    }
+
+    .coverContent{
+      overflow: scroll;
+    }
+
+    .coverDayActive{
+      width: 50%;
+      font-size: 8px;
+    }
+
+    .coverDay{
+      width: 50%;
+      font-size: 8px;
+    }
+
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
